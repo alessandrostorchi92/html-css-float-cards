@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    max-width: 920px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #E53170;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 40px;
+}
+
+p {
+    text-align: center;
+    margin-top: 60px;
+    
+}
+
+mark {
+    background-color: #E8D3CA;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container-cards {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.float-left {
+    float: left;
+}
+
+.box1 {
+    width: 33.3%;
+    height: 100px;
+    background-color: black;
+    color: white;
+}
+
+.box2 {
+    width: 33.3%;
+    height: 100px;
+    background-color: black;
+    color: white;
+    box-shadow: 0px 0px 15px -6px #000000;
+}
+
+.box3 {
+    width: 33.3%;
+    height: 100px;
+    background-color: black;
+    color: white;
+    box-shadow: 0px 0px 15px -6px #000000;
+}
+
+.box4 {
+    width: 33.3%;
+    height: 100px;
+    color: white;
+    background-color: black;
+    margin-top: 40px;
+    box-shadow: 0px 0px 15px -6px #000000;   
+}
+
+.box5 {
+    width: 33.3%;
+    height: 100px;
+    background-color: black;
+    color: white;
+    margin-top: 40px;
+    box-shadow: 0px 0px 15px -6px #000000;
+}
+.box6 {
+    width: 33.3%;
+    height: 100px;
+    background-color: black;
+    color: white;
+    margin-top: 40px;
+    box-shadow: 0px 0px 15px -6px #000000
+}
+
+img {
+    height: 100px;
+}
