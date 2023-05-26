@@ -19,7 +19,7 @@ h1 {
 
 h2 {
     color: white;
-    font-size: 18px;
+    font-size: 16px;
     padding-left: 20px;
     text-shadow: 1px 1px 2px white;
     padding-top: 10px;
@@ -60,61 +60,32 @@ mark {
     width: 100%;
     margin: 0 auto;
     margin-top: 40px;
+    background-color: white;
 }
 
 .float-left {
     float: left;
 }
 
-.box1 {
+.box {
     width: 33.3%;
     height: 100px;
+    float: left;
     background-color: black;
     color: white;
     box-shadow: 0px 0px 15px -6px #000000;
 }
 
-.box2 {
-    width: 33.3%;
-    height: 100px;
-    background-color: black;
-    color: white;
+.box-center {
     box-shadow: 0px 0px 15px -6px #000000;
+    border-left: 10px solid #FFFFFE;
+    border-right: 10px solid #FFFFFE;
 }
 
-.box3 {
-    width: 33.3%;
-    height: 100px;
-    background-color: black;
-    color: white;
-    box-shadow: 0px 0px 15px -6px #000000;
-}
-
-.box4 {
-    width: 33.3%;
-    height: 100px;
-    color: white;
-    background-color: black;
+.space-box {
     margin-top: 40px;
-    box-shadow: 0px 0px 15px -6px #000000;   
 }
 
-.box5 {
-    width: 33.3%;
-    height: 100px;
-    background-color: black;
-    color: white;
-    margin-top: 40px;
-    box-shadow: 0px 0px 15px -6px #000000;
-}
-.box6 {
-    width: 33.3%;
-    height: 100px;
-    background-color: black;
-    color: white;
-    margin-top: 40px;
-    box-shadow: 0px 0px 15px -6px #000000
-}
 
 img {
     height: 100px;
